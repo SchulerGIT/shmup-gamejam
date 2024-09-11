@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509272fae29fe1e49b324df91a5e9f4b, type: 3}
-  m_Name: SingleShot
+  m_Script: {fileID: 11500000, guid: cd7c396853828894984465bbd343c42f, type: 3}
+  m_Name: Spinshot
   m_EditorClassIdentifier: 
-  damage: 10
-  fireRate: 0.1
-  projectileSpeed: 5
-  projectileLifetime: 5
-  projectilePrefab: {fileID: 8064666048401312749, guid: 80a056b28c1883f48b197bc4ae4d0cd4, type: 3}
+  damage: 1
+  fireRate: 0.15
+  projectileSpeed: 1
+  projectileLifetime: 10
+  projectilePrefab: {fileID: 8064666048401312749, guid: 9c2229def70357e4a8617a877458eaad, type: 3}
+  spreadAngle: 120

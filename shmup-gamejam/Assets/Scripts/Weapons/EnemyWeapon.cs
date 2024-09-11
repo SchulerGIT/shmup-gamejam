@@ -15,6 +15,12 @@ namespace Shmup
                 weaponStrategy.Fire(firePoint, layer);
                 fireTimer = 0f;
             }
+
+            if (fireTimer >= weaponStrategy.FireRate)
+            {
+                weaponStrategy.Fire(firePoint, layer);
+                fireTimer = 0f;
+            }
         }
     }
 }

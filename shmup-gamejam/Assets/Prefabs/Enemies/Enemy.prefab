@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 5468274055628432434}
   - component: {fileID: 1073659715843067202}
   - component: {fileID: 5152730778111719462}
+  - component: {fileID: 3824895476815541330}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -132,7 +133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
-  explosionPrefab: {fileID: 0}
 --- !u!50 &1073659715843067202
 Rigidbody2D:
   serializedVersion: 4
@@ -195,3 +195,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &3824895476815541330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6173771433085116761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c08fc5f8f69b4f4e91f773174e29261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

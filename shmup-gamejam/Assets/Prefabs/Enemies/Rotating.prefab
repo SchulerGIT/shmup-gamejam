@@ -128,9 +128,9 @@ GameObject:
   - component: {fileID: 6236590303455387639}
   - component: {fileID: -2475136799388425313}
   - component: {fileID: 8134627249882158421}
-  - component: {fileID: -601412981962750919}
+  - component: {fileID: 8216818644892226319}
   m_Layer: 7
-  m_Name: 2_Enemy
+  m_Name: Rotating
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-601412981962750919
+--- !u!114 &8216818644892226319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
