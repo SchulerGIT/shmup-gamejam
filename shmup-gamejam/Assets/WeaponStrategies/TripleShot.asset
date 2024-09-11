@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7c396853828894984465bbd343c42f, type: 3}
   m_Name: TripleShot
   m_EditorClassIdentifier: 
-  damage: 10
-  fireRate: 1
+  damage: 1
+  fireRate: 0.1
   projectileSpeed: 10
   projectileLifetime: 4
-  projectilePrefab: {fileID: 8064666048401312749, guid: 80a056b28c1883f48b197bc4ae4d0cd4, type: 3}
-  spreadAngle: 15
+  projectilePrefab: {fileID: 8064666048401312749, guid: c70edcb72f723574aa2d7e9ce37bff72, type: 3}
+  spreadAngle: 10
