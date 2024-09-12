@@ -128,7 +128,6 @@ GameObject:
   - component: {fileID: 6236590303455387639}
   - component: {fileID: -2475136799388425313}
   - component: {fileID: 8134627249882158421}
-  - component: {fileID: -601412981962750919}
   m_Layer: 7
   m_Name: 2_Enemy
   m_TagString: Enemy
@@ -180,7 +179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74be767594a214c4a8736f1dc15dff30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 10
+  deathNoise: {fileID: 8300000, guid: b8effe06cd5960c4ea11a015accf773e, type: 3}
+  OnSystemDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!58 &-2475136799388425313
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -243,15 +246,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-601412981962750919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6173771433085116761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c08fc5f8f69b4f4e91f773174e29261, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
